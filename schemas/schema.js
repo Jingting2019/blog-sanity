@@ -29,6 +29,23 @@ export default createSchema({
       ]
     },
     {
+      name: 'author2',
+      type: 'document',
+      title: 'Author2',
+      fields: [
+        {
+          name: 'name',
+          title: 'Name',
+          type: 'string'
+        },
+        {
+          name: 'avatar',
+          title: 'Avatar',
+          type: 'image'
+        }
+      ]
+    },
+    {
       name: 'blog',
       type: 'document',
       title: 'Blog',
