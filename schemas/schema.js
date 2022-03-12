@@ -29,21 +29,20 @@ export default createSchema({
       ]
     },
     {
-      name: 'author2',
+      name: 'blog2',
       type: 'document',
-      title: 'Author2',
+      title: 'Blog2',
       fields: [
         {
-          name: 'name',
-          title: 'Name',
-          type: 'string'
+          name: 'title',
+          type: 'string',
+          title: 'Title'
         },
         {
-          name: 'avatar',
-          title: 'Avatar',
-          type: 'image'
-        }
-      ]
+          name: 'subtitle',
+          type: 'string',
+          title: 'Subtitle'
+        }]
     },
     {
       name: 'blog',
